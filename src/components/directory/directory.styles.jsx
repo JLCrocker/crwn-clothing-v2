@@ -1,4 +1,6 @@
-.directory-container {
+import { styled } from 'styled-components';
+
+export const DirectoryContainer = styled.div`
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -7,4 +9,4 @@
   position: absolute;
   left: 9rem;
   right: 9rem;
-}
+`;

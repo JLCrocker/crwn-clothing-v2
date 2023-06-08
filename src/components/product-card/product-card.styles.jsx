@@ -1,23 +1,27 @@
-.product-card-container {
-  width: 100%;
+import styled from 'styled-components';
+
+export const ProductCardContainer = styled.div`
+  width: 95%;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 23em;
   align-items: center;
   position: relative;
 
   img {
-    width: 100%;
-    height: 95%;
+    width: 95%;
+    height: 90%;
     object-fit: cover;
     margin-bottom: 5px;
+    border-radius: 0.55em;
   }
 
   button {
     width: 80%;
     opacity: 0.7;
     position: absolute;
-    top: 255px;
+    top: 16rem;
+    font-size: 0.75rem;
     display: none;
   }
 
@@ -37,7 +41,7 @@
     height: 5%;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 1rem;
 
     .name {
       width: 90%;
@@ -48,4 +52,4 @@
       width: 10%;
     }
   }
-}
+`;
